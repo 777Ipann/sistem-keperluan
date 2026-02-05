@@ -16,7 +16,7 @@ jobs:
         - name: Set up python
         uses: actions/setup-phyton@v4
         with:
-            phyton-version: '3.9'
+            phyton-version: "3.9"
 
         - name: Install dependencies
           run: |
